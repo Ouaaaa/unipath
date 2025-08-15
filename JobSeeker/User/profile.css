@@ -1,0 +1,82 @@
+
+
+.profile-section {
+    display: flex;
+}
+
+.profile-card {
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    flex: 1;
+    margin-left: 6%;
+}
+
+.profile-pic {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 25px;
+    align-items: center;
+}
+
+.settings-form {
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    flex: 2;
+    margin-inline-start:50px;
+}
+
+form {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px; /* Space between inputs */
+}
+.input-profile {
+    flex: 1 1 ;  /* Adjust column width as needed */
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 24px;
+
+}
+
+.choose-profile-pic
+{   
+    margin-bottom: 25px;
+    padding: 10px;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+}
+input, select {
+    margin-bottom: 25px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #5a4c3c;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+.upload-profile{
+    padding: 12px;      /* Add padding for a bigger size */
+    font-size: 16px;    /* Make the text inside bigger */
+    border-radius: 8px; /* Add rounded corners */
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}

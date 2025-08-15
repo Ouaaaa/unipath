@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register - Step 2</title>
+    <link rel="stylesheet" href="registerpage2.css">
+</head>
+<body>
+    <div class="container">
+        <div class="form-container">
+            <h2>Almost done</h2>
+            <form action="/submit" method="POST">
+                <div class="input-group">
+                    <input type="text" placeholder="First Name" name="first-name" required>
+                    <input type="text" placeholder="Last Name" name="last-name" required>
+                </div>
+
+                <hr>
+
+                <h3>Recent Experience</h3>
+                <label class="checkbox">
+                    <input type="checkbox" name="experience">
+                    I have experience
+                </label>
+
+                <div class="info-box">
+                    <p>
+                        💡 New to the industry? No worries! You can always update your profile with your work experience later.
+                    </p>
+                </div>
+
+                <input type="text" placeholder="Home Location" name="location" required>
+
+                <div class="input-group">
+                    <select name="preferred-classification">
+                        <option value="software-developer">Software Developer</option>
+                        <option value="designer">Designer</option>
+                        <option value="project-manager">Project Manager</option>
+                    </select>
+                    <select name="sub-classification">
+                        <option value="web-developer">Web Developer</option>
+                        <option value="frontend-developer">Frontend Developer</option>
+                        <option value="backend-developer">Backend Developer</option>
+                    </select>
+                </div>
+
+                <center><button type="submit">Register</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

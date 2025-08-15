@@ -1,0 +1,99 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f2eb;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.form-container {
+    background-color: #5B3F28;
+    padding: 40px;
+    border-radius: 20px;
+    color: white;
+    width: 1000px;
+}
+
+h2 {
+    font-size: 1.8em;
+    margin-bottom: 20px;
+}
+
+.input-group {
+    display: flex;
+    gap: 20px;
+}
+
+input[type="text"],
+select {
+    width: 20%;
+    padding: 12px;
+    margin: 10px 0;
+    border-radius: 10px;
+    border: none;
+    font-size: 14px;
+}
+
+.input-group input[type="text"],
+.input-group select {
+    width: 50%;
+}
+
+.experience-section {
+    margin: 20px 0;
+}
+
+.experience-message {
+    background-color: #fdeedc;
+    padding: 10px;
+    border-radius: 10px;
+    color: #5B3F28;
+    display: flex;
+    align-items: center;
+}
+
+.experience-message i {
+    margin-right: 10px;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+button {
+    width: 30%;
+    padding: 12px;
+    border-radius: 10px;
+    border: none;
+    background-color: orange;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+button:hover {
+    background-color: #e68a00;
+}
+.col-2 {
+    display: flex;
+    gap: 20px;
+}
+
+.col-2 input[type="text"],
+.col-2 select {
+    flex: 1;
+    padding: 12px;
+    margin: 10px 0;
+    border-radius: 10px;
+    border: none;
+    font-size: 14px;
+}

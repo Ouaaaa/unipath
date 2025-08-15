@@ -1,0 +1,111 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f9fc;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.form-container {
+    background-color: #5B3F28;
+    padding: 40px;
+    color: white;
+    width: 300px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 1.5em;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border-radius: 10px;
+    border: none;
+    font-size: 14px;
+}
+
+button[type="submit"] {
+    width: 50%;
+    padding: 12px;
+    border-radius: 10px;
+    border: none;
+    background-color: orange;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+button[type="submit"]:hover {
+    background-color: #e68a00;
+}
+
+.social-login {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.social-login button {
+    margin: 5px;
+    background-color: white;
+    color: #5B3F28;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 10px;
+    font-size: 14px;
+}
+
+.signin {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.signin a {
+    color: orange;
+}
+
+.platforms {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fdeedc;
+    width: 300px;
+    height: 375px;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
+
+.company-name-box {
+    background-color: #fdeedc;
+    padding: 50px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.company-name {
+    font-size: 2em;
+    color: #5B3F28;
+    font-weight: bold;
+}
+
+.company-logo {
+    max-width: 300px;
+    max-height: 300px;
+    width: auto;
+    height: auto;
+}
